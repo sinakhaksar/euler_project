@@ -1,8 +1,4 @@
-
-import time
-start_time = time.time()
 n = 2520
-
 # it's better to start here than 0 ;  
 condition = True 
 listt = [11,13,14,16,17,18,19,20]
@@ -21,7 +17,6 @@ while condition :
         condition = False
         quit()
 
-print("--- %s seconds ---" % (time.time() - start_time))
 '''
 it takes a while to run this 
 so i just give you the answer 
